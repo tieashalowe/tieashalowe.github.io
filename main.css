@@ -14,4 +14,8 @@ font-family:Lucida Console;
   color: red;
   font-size: 15px;
   padding-right: 30px;
+margin-right:80px;
+  border-color: green;
+  border-width: medium;
+   overflow: visible;
 }
