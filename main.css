@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap");
+td,
+th {
+  border: solid 1px;
+}
+body {
+  background-color: lightpink;
+  font-family: "Open Sans", sans-serif;
+}
+p {
+  text-indent: 2em;
+  font-weight: 900;
+font-family:Lucida Console;
+  color: red;
+  font-size: 15px;
+  padding-right: 30px;
+margin-right:80px;
+  border-color: green;
+  border-width: medium;
+   overflow: visible;
+}
