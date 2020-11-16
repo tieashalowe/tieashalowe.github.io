@@ -10,12 +10,19 @@ body {
 p {
   text-indent: 2em;
   font-weight: 900;
-font-family:Lucida Console;
-  color: red;
+  font-family: Lucida Console;
+  color: #FF0000;
   font-size: 15px;
   padding-right: 30px;
-margin-right:80px;
-  border-color: green;
+  margin-right: 80px;
+  border-color: rgb(0, 255, 127);
   border-width: medium;
-   overflow: visible;
+  overflow: visible;
+  font: 15px Arial, sans-serif;
+  height: auto;
+  border: 1px solid black;
+  width: 250px;
+}
+#intro {
+  background-color: yellow;
 }
