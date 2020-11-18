@@ -22,15 +22,12 @@ p {
   height: auto;
   border: 1px solid black;
   width: 250px;
+  font-style: normal;
 }
 #intro {
   background-color: yellow;
 }
-div {
-  width: 70px;
-  height: 300px;
-  border: 1px solid #c3c3c3;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
+.psep{
+  text-align: center;
+   width: 250px;
 }
