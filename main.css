@@ -25,6 +25,7 @@ p{
   border: 1px solid black;
    width: 400px;
   font-style: normal;
+  text-align: left;
 }
 #intro {
   background-color: yellow;
@@ -36,3 +37,4 @@ p{
 .left-pic{
   float:left;
   display:inline-block;
+  
