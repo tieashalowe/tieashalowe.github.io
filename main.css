@@ -7,15 +7,15 @@ body {
   background-color: lightpink;
   font-family: "Open Sans", sans-serif;
 }
-p{
+p {
   text-indent: 2em;
   font-weight: 900;
-  font-family: Lucida Console;
+  font-family: Lucida Console, Monospace;
   color: #FF0000;
   font-size: 15px;
   padding: 10px;
-  border-radius:10px;
-  box-shadow:5px 5px 10px rgba(120,120,120,.6);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(120, 120, 120, 0.6);
   margin-right: 80px;
   border-color: rgb(0, 255, 127);
   border-width: medium;
@@ -23,18 +23,34 @@ p{
   font: 15px Arial, sans-serif;
   height: auto;
   border: 1px solid black;
-   width: 400px;
+  width: 400px;
   font-style: normal;
   text-align: left;
 }
 #intro {
   background-color: yellow;
 }
-.psep{
+.psep {
   text-align: center;
-   width: 250px;
+  width: 250px;
 }
-.left-pic{
-  float:left;
-  display:inline-block;
-  
+.left-pic {
+  float: left;
+  display: inline-block;
+}
+a:hover {
+  background-color: red;
+}
+a:active {
+  color: purple;
+}
+a:visited {
+  color: black;
+}
+a:link {
+  color: Darkblue;
+}
+h1{
+   text-decoration: underline overline;
+  max-width:400px;
+}
