@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+     <meta name="description" content="All about Tieasha"/>
+     <meta name="Keywords" content="Family,members,this,traveled,home,favorite"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+     <meta charset="UTF-8"/>
     <style>
       input[type="text"],
       select {
@@ -36,10 +40,27 @@
     </style>
   </head>
   <body>
+     <header>
+      <h1>
+        Everything to know about Tieasha
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="family.html">Family</a></li>
+          <li><a href="favorite.html">Favorite</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="traveled.html">Traveled</a></li>
+          <li><a href="members.html">members</a></li>
+           <li><a href="This.html">This</a></li>
+        </ul>
+      </nav>
+    </header>
     <h3>Using CSS to style an HTML Form</h3>
 
     <div>
-      <form action="thanksforsubmitting.html">
+      <fieldset>
+  <legend>Description:</legend>
+      <form action="thanksforsubmitting.html" method="get">
         <label for="fname">First Name</label>
         <input
           type="text"
@@ -47,7 +68,6 @@
           name="firstname"
           placeholder="Your name.."
         />
-
         <label for="lname">Last Name</label>
         <input
           type="text"
@@ -62,16 +82,27 @@
           <option value="canada">Canada</option>
           <option value="usa">USA</option>
         </select>
-
+        <label for="Description">Description</label>
+<textarea id="Description" placeholder="Describe yourself here"></textarea>
+         <label for="Food">Choose your favorite food from the list:</label>
+  <input list="Foods" name="Food" id="Food">
+  <datalist id="Foods">
+    <option value="Wings"/>
+    <option value="Taco"/>
+    <option value="Pasta"/>
+    <option value="Pizza"/>
+    <option value="Hot Chips"/>
+  </datalist>
         <input type="submit" value="Submit" />
       </form>
       <p>
         Sumbit the information above.
       </p>
       <hr>
+           </fieldset>
     </div>
   </body>
-   <style>
+    <style>
     .footer {
       position: fixed;
       left: 10;
@@ -82,9 +113,9 @@
       text-align: center;
     }
   </style>
-  <div class="footer">
+  <footer class="footer">
     <p>Footer</p>
-  </div>
+  </footer>
   <iframe
     src="https://cdn.glitch.com/8b5de3b0-79c5-43c8-b052-91b2a15f6a51%2Fpuppy-dog-pup-dog-o-toby-shepherd-shetland-cute-adorable-domesticated-young-puppy-thumbnail.jpg?v=1606254019442"
     height="200"
