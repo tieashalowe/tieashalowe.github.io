@@ -5,18 +5,20 @@ th {
 }
 body {
   background-color: lightpink;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Times new roman", serif; 
+
 }
 p {
   text-indent: 2em;
   font-weight: 900;
-  font-family: Lucida Console, Monospace;
+  font-family: Arial, Sans-serif;
   color: #FF0000;
   font-size: 15px;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(120, 120, 120, 0.6);
   margin-right: 80px;
+  margin-left:10px;
   border-color: rgb(0, 255, 127);
   border-width: medium;
   overflow: visible;
@@ -27,8 +29,9 @@ p {
   font-style: normal;
   text-align: left;
 }
+/* This is for the background color for the intro paragraph*/
 #intro {
-  background-color: yellow;
+  background-color: yellow; 
 }
 .psep {
   text-align: center;
@@ -53,4 +56,19 @@ a:link {
 h1{
    text-decoration: underline overline;
   max-width:400px;
+  text-align:center;
 }
+html,body{
+  margin:0;
+  padding:0;
+}
+h4{
+  margin-left:10px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+    width:600px
+  }
+}
+@media only screen and (min-width:50em){.hmBpsa{padding-top:31px;}}
