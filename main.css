@@ -5,7 +5,8 @@ th {
 }
 body {
   background-color: lightpink;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif; 
+
 }
 p {
   text-indent: 2em;
@@ -28,8 +29,9 @@ p {
   font-style: normal;
   text-align: left;
 }
+/* This is for the background color for the intro paragraph*/
 #intro {
-  background-color: yellow;
+  background-color: yellow; 
 }
 .psep {
   text-align: center;
