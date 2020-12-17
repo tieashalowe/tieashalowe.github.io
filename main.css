@@ -5,13 +5,13 @@ th {
 }
 body {
   background-color: lightpink;
-  font-family: "Open Sans", sans-serif; 
+  font-family: "Times new roman", serif; 
 
 }
 p {
   text-indent: 2em;
   font-weight: 900;
-  font-family: Lucida Console, Monospace;
+  font-family: Arial, Sans-serif;
   color: #FF0000;
   font-size: 15px;
   padding: 10px;
